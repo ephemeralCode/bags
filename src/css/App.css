@@ -23,7 +23,9 @@
 body {
     background: url('../image/background.webp');
     background-repeat: no-repeat; 
-    background-position: 50% top;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
 
     overflow: hidden;
 
