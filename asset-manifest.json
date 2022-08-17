@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/bags/static/css/main.af29dd12.css",
+    "main.css": "/bags/static/css/main.df4a0854.css",
     "main.js": "/bags/static/js/main.0148aea0.js",
     "static/media/background.webp": "/bags/static/media/background.971344cd2d19973e1969.webp",
     "static/media/Novecentosanswide-Normal-webfont.svg": "/bags/static/media/Novecentosanswide-Normal-webfont.ef8307cd7364a9280a68.svg",
@@ -123,11 +123,11 @@
     "static/media/schoolGehennaIcon.svg": "/bags/static/media/schoolGehennaIcon.0f6e0a00e66c5d001050ff6c2f14e5d5.svg",
     "static/media/schoolMillenniumIcon.svg": "/bags/static/media/schoolMillenniumIcon.6fe22fd1de0ee90149e9eb539eb62002.svg",
     "index.html": "/bags/index.html",
-    "main.af29dd12.css.map": "/bags/static/css/main.af29dd12.css.map",
+    "main.df4a0854.css.map": "/bags/static/css/main.df4a0854.css.map",
     "main.0148aea0.js.map": "/bags/static/js/main.0148aea0.js.map"
   },
   "entrypoints": [
-    "static/css/main.af29dd12.css",
+    "static/css/main.df4a0854.css",
     "static/js/main.0148aea0.js"
   ]
 }
