@@ -24,7 +24,6 @@ body {
     background: url('../image/background.webp');
     background-repeat: no-repeat; 
     background-size: cover;
-    /* background-position: center center; */
     background-attachment: fixed;
 
     overflow: hidden;
@@ -115,30 +114,35 @@ img{
 
 .WindowGacha-trapezeUnderscore {
     align-self: center;
+
+    width: 15px;
+    height: 25px;
+
     margin: 0 0 5px 0;
 
     font-family: var(--fontNovaSquare);
     font-size: 20px;
     color: #fff;
 
+    opacity: 1;
     animation: underscoreBlink 1s linear infinite;
 }
 
 @keyframes underscoreBlink {
     0% {
-        font-size: 20px;
+        opacity: 1;
     }
 
     70% {
-        font-size: 20px;
+        opacity: 1;
     }
     
     71% {
-        font-size: 0px;
+        opacity: 0;
     }
 
     100% {
-        font-size: 0px;
+        opacity: 0;
     }
 }
 
