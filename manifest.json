@@ -1,5 +1,5 @@
 {
-  "short_name": "bags",
+  "short_name": "BAGS",
   "name": "Blue Archive Gacha Simulator",
   "icons": [
     {
@@ -21,5 +21,6 @@
   "start_url": ".",
   "display": "standalone",
   "theme_color": "#000000",
-  "background_color": "#ffffff"
+  "background_color": "#ffffff",
+  "description": "Blue Archive Gacha Simulator"
 }
