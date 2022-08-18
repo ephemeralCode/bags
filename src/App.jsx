@@ -12,7 +12,7 @@ import { importStudentsUltraRare, importStudentsRare, importStudentsCommon } fro
 
 function App() {
     const [autoReset, setAutoReset] = useState(false)
-    const [valueSpeedRoll, setValueSpeedRoll] = useState(1)
+    const [valueSpeedRoll, setValueSpeedRoll] = useState(0)
     const [speedRoll, setSpeedRoll] = useState(500)
 
     const [userStudentsUltraRare, setUserStudentsUltraRare] = useState([])
@@ -506,11 +506,11 @@ function App() {
                                         className='Interface-inputCustomRectruitmentBtn'
                                         type='number' 
                                         min={1}
-                                        max={999999}
+                                        max={99999}
                                         maxLength={6}
                                         value={countRolls}
                                         onChange={(e) => {
-                                            if (String(e.target.value).split('').length < 6) {
+                                            if (String(e.target.value).split('').length < 5) {
                                                 setCountRolls(e.target.value)
                                             }
                                         }}
@@ -519,7 +519,7 @@ function App() {
                                     <button 
                                         className='Interface-btnMaxCustomRectruitmentBtn'
                                         onClick={() => {
-                                            setCountRolls(999999)
+                                            setCountRolls(99999)
                                         }}
                                         
                                     >MAX</button>
@@ -533,13 +533,25 @@ function App() {
                                     className='Interface-controlSpeedRoll' 
                                     type={'range'}
                                     value={valueSpeedRoll}
-                                    min={1}
-                                    max={31}
-                                    step={3}
+                                    min={0}
+                                    max={10}
+                                    step={2}
                                     onChange={(e) => {
                                         setValueSpeedRoll(e.target.value)
 
-                                        setSpeedRoll(Math.floor(500 / e.target.value))
+                                        if (e.target.value == 0) {
+                                            setSpeedRoll(500)
+                                        } else if (e.target.value == 2) {
+                                            setSpeedRoll(300)
+                                        } else if (e.target.value == 4) {
+                                            setSpeedRoll(100)
+                                        } else if (e.target.value == 6) {
+                                            setSpeedRoll(50)
+                                        } else if (e.target.value == 8) {
+                                            setSpeedRoll(25)
+                                        } else {
+                                            setSpeedRoll(10)
+                                        }
                                     }}
                                 />
                             </div>
