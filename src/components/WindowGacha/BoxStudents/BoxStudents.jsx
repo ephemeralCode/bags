@@ -1,15 +1,16 @@
 const BoxStudents = (props) => {
+
     return (
         <div className='BoxStudents-containerStudents'>
             {
-                props.userStudents.length ?
-                    props.userStudents.map(item => 
+                props.userStudents[props.typeGacha][props.typeStudent].length ?
+                    props.userStudents[props.typeGacha][props.typeStudent].map(item => 
                         <div 
                             className='BoxStudents-containerStudent'
                             key={item.id}
                         >
-                            <div className='BoxStudents-rectangleTop'></div>
-                            <div className='BoxStudents-rectangleBottom'></div>
+                            <div className={!item.limited ? 'BoxStudents-rectangleTop' : 'BoxStudents-rectangleLimitedTop'}></div>
+                            <div className={!item.limited ? 'BoxStudents-rectangleBottom' : 'BoxStudents-rectangleLimitedBottom'}></div>
 
                             {
                                 item.amount > 1 && 

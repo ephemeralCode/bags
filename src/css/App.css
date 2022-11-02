@@ -372,7 +372,7 @@ img{
 
 /** BoxStudents rectangle **/
 
-.BoxStudents-rectangleTop {
+.BoxStudents-rectangleTop, .BoxStudents-rectangleLimitedTop {
     position: absolute;
     top: -3px;
     right: -2px;
@@ -382,11 +382,18 @@ img{
 
     background: #70DAFF;
     border-top-right-radius: 8px;
-
     transform: skew(-10deg);
 }
 
-.BoxStudents-rectangleBottom {
+.BoxStudents-rectangleTop {
+    background: #70DAFF;
+}
+
+.BoxStudents-rectangleLimitedTop {
+    background: #ff70da;
+}
+
+.BoxStudents-rectangleBottom, .BoxStudents-rectangleLimitedBottom {
     position: absolute;
     bottom: -3px;
     left: -2px;
@@ -394,10 +401,17 @@ img{
     width: 30px;
     height: 16px;
 
-    background: #70DAFF;
+    
     border-bottom-left-radius: 8px;
-
     transform: skew(-10deg);
+}
+
+.BoxStudents-rectangleBottom {
+    background: #70DAFF;
+}
+
+.BoxStudents-rectangleLimitedBottom {
+    background: #ff70da;
 }
 
 /** BoxStudents amount **/
@@ -598,7 +612,7 @@ img{
 
 /*  */
 
-.Interface-conteiner {
+.Interface-container {
     max-width: 500px;
     width: 100%;
     min-height: 810px;

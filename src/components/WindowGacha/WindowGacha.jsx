@@ -2,7 +2,7 @@
 import BoxStudents from './BoxStudents/BoxStudents'
 
 // icon
-import ETCIcon from '../../image/icon/ETCIcon.svg'
+import ETCIcon from '../../image/icon/schoolIcon/schoolETCIcon.svg'
 
 const WindowGacha = (props) => {
     return (
@@ -16,7 +16,7 @@ const WindowGacha = (props) => {
                     <div className='WindowGacha-trapezeUnderscore'>_</div>
                 </div>
                 
-                <p className='WindowGacha-containerTrapezeVersion'>ver 0.1</p>
+                <p className='WindowGacha-containerTrapezeVersion'>ver 0.2</p>
             </div>
 
             <div className='WindowGacha-container'>
@@ -39,9 +39,26 @@ const WindowGacha = (props) => {
                                     <p className='WindowGacha-star'>★★★</p>
                                 </div>
 
-                                <BoxStudents 
-                                    userStudents={props.userStudentsUltraRare}
-                                />
+                                {
+                                    props.regularToggle &&
+                                        <BoxStudents 
+                                            userStudents={props.userStudents}
+
+                                            typeGacha={'regular'}
+                                            typeStudent={'ultraRare'}
+                                        />
+                                }
+                                        
+                                {
+                                    props.rateUpToggle &&
+                                        <BoxStudents 
+                                            userStudents={props.userStudents}
+
+                                            typeGacha={'rateUp'}
+                                            typeStudent={'ultraRare'}
+                                        />
+                                }
+                                
                             </div>
 
                             <div className='WindowGacha-windowReceivedStudents'>
@@ -51,9 +68,25 @@ const WindowGacha = (props) => {
                                     <p className='WindowGacha-star'>★★</p>
                                 </div>
 
-                                <BoxStudents 
-                                    userStudents={props.userStudentsRare}
-                                />
+                                {
+                                    props.regularToggle &&
+                                        <BoxStudents 
+                                            userStudents={props.userStudents}
+
+                                            typeGacha={'regular'}
+                                            typeStudent={'rare'}
+                                        />
+                                }
+
+                                {
+                                    props.rateUpToggle &&
+                                        <BoxStudents 
+                                            userStudents={props.userStudents}
+
+                                            typeGacha={'rateUp'}
+                                            typeStudent={'rare'}
+                                        />
+                                }   
                             </div>
 
                             <div className='WindowGacha-windowReceivedStudents'>
@@ -63,9 +96,25 @@ const WindowGacha = (props) => {
                                     <p className='WindowGacha-star'>★</p>
                                 </div>
 
-                                <BoxStudents 
-                                    userStudents={props.userStudentsCommon}
-                                />
+                                {
+                                    props.regularToggle &&
+                                        <BoxStudents 
+                                            userStudents={props.userStudents}
+
+                                            typeGacha={'regular'}
+                                            typeStudent={'common'}
+                                        />
+                                }  
+
+                                {
+                                    props.rateUpToggle &&
+                                        <BoxStudents 
+                                            userStudents={props.userStudents}
+
+                                            typeGacha={'rateUp'}
+                                            typeStudent={'common'}
+                                        />
+                                }  
                             </div>
                         </div>
                     </div>
