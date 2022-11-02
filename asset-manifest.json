@@ -1,8 +1,15 @@
 {
   "files": {
-    "main.css": "/bags/static/css/main.4f80c380.css",
-    "main.js": "/bags/static/js/main.c128ae72.js",
+    "main.css": "/bags/static/css/main.01f8dc64.css",
+    "main.js": "/bags/static/js/main.2b6ef37e.js",
     "static/media/background.webp": "/bags/static/media/background.971344cd2d19973e1969.webp",
+    "static/media/imgStudent82.png": "/bags/static/media/imgStudent82.62bcf7b8d747d2fc23e5.png",
+    "static/media/imgStudent85.png": "/bags/static/media/imgStudent85.829da66d83f34f140328.png",
+    "static/media/imgStudent86.png": "/bags/static/media/imgStudent86.b9c063a419355e296162.png",
+    "static/media/imgStudent84.png": "/bags/static/media/imgStudent84.8817a20560a5184c8273.png",
+    "static/media/imgStudent88.png": "/bags/static/media/imgStudent88.fbc15cc523c800be3ee6.png",
+    "static/media/imgStudent87.png": "/bags/static/media/imgStudent87.2ff3fa3a0aa0fa2fa6d7.png",
+    "static/media/imgStudent73.png": "/bags/static/media/imgStudent73.50a6c492df641d1a3af9.png",
     "static/media/Novecentosanswide-Normal-webfont.svg": "/bags/static/media/Novecentosanswide-Normal-webfont.ef8307cd7364a9280a68.svg",
     "static/media/Novecentosanswide-Medium-webfont.svg": "/bags/static/media/Novecentosanswide-Medium-webfont.1cd8850c15f08fe4f02a.svg",
     "static/media/Novecentosanswide-Book-webfont.svg": "/bags/static/media/Novecentosanswide-Book-webfont.697064e490be7cce8de5.svg",
@@ -18,7 +25,6 @@
     "static/media/imgStudent6.webp": "/bags/static/media/imgStudent6.bd287d3f3ce4452ac0d5.webp",
     "static/media/imgStudent67.webp": "/bags/static/media/imgStudent67.9bb7843d4a5b2c16e720.webp",
     "static/media/imgStudent2.webp": "/bags/static/media/imgStudent2.1c0f488514a093a9e697.webp",
-    "static/media/imgStudent63.webp": "/bags/static/media/imgStudent63.99ea56e83a2e0f915e76.webp",
     "static/media/imgStudent53.webp": "/bags/static/media/imgStudent53.92440a2cf2c0e422d45e.webp",
     "static/media/imgStudent42.webp": "/bags/static/media/imgStudent42.064d46e02ee688ef4adb.webp",
     "static/media/imgStudent54.webp": "/bags/static/media/imgStudent54.af631fe74a0bee491959.webp",
@@ -35,7 +41,6 @@
     "static/media/imgStudent62.webp": "/bags/static/media/imgStudent62.096f2299a29409b07f7d.webp",
     "static/media/imgStudent64.webp": "/bags/static/media/imgStudent64.f553b60476022832bf47.webp",
     "static/media/imgStudent41.webp": "/bags/static/media/imgStudent41.3704601c0ff936c88d7e.webp",
-    "static/media/imgStudent59.webp": "/bags/static/media/imgStudent59.da22762d3e2a0ceba97e.webp",
     "static/media/imgStudent61.webp": "/bags/static/media/imgStudent61.cffcc98f796b3d676fa2.webp",
     "static/media/imgStudent60.webp": "/bags/static/media/imgStudent60.8f666ee5af8e8052d295.webp",
     "static/media/imgStudent55.webp": "/bags/static/media/imgStudent55.19a43e1048fa7bc1a31a.webp",
@@ -53,13 +58,15 @@
     "static/media/imgStudent39.webp": "/bags/static/media/imgStudent39.dc86b67fc3933530667e.webp",
     "static/media/imgStudent75.webp": "/bags/static/media/imgStudent75.c9d0dacb72569eeea4a9.webp",
     "static/media/imgStudent70.webp": "/bags/static/media/imgStudent70.3c31973c3a4366e9a83f.webp",
-    "static/media/imgStudent52.webp": "/bags/static/media/imgStudent52.6cb3686f18f0e3c4eb25.webp",
+    "static/media/imgStudent80.webp": "/bags/static/media/imgStudent80.6c769ff7f713c004f37b.webp",
     "static/media/imgStudent74.webp": "/bags/static/media/imgStudent74.26261063beb67447a943.webp",
     "static/media/imgStudent72.webp": "/bags/static/media/imgStudent72.eea31bb9686c901ed103.webp",
     "static/media/imgStudent7.webp": "/bags/static/media/imgStudent7.a61c3445a14046ee351d.webp",
     "static/media/imgStudent56.webp": "/bags/static/media/imgStudent56.724dfeb674eba4faaf1d.webp",
     "static/media/imgStudent35.webp": "/bags/static/media/imgStudent35.d189d9b283c28bd91bcb.webp",
     "static/media/imgStudent26.webp": "/bags/static/media/imgStudent26.4643e92402543cc1fb82.webp",
+    "static/media/imgStudent81.webp": "/bags/static/media/imgStudent81.ca786db80e51c508972a.webp",
+    "static/media/imgStudent79.webp": "/bags/static/media/imgStudent79.d3de3e9809d4482b3387.webp",
     "static/media/imgStudent5.webp": "/bags/static/media/imgStudent5.616675cd5a8fc0b93c48.webp",
     "static/media/imgStudent28.webp": "/bags/static/media/imgStudent28.d9e2685d72700f60fe6f.webp",
     "static/media/imgStudent27.webp": "/bags/static/media/imgStudent27.8e6ecd0ada0a8412f8e7.webp",
@@ -118,16 +125,16 @@
     "static/media/schoolHyakkiyakoIcon.svg": "/bags/static/media/schoolHyakkiyakoIcon.c297112edde9b36949d895fc01aed9dd.svg",
     "static/media/schoolAbidosIcon.svg": "/bags/static/media/schoolAbidosIcon.80e5812da48a2f4a9618fcb1d16a8edc.svg",
     "static/media/schoolTrinityIcon.svg": "/bags/static/media/schoolTrinityIcon.1fb2e7246e68171cd83bea40acda5a98.svg",
-    "static/media/ETCIcon.svg": "/bags/static/media/ETCIcon.742c46b88dfe179268d076483faddd7b.svg",
+    "static/media/schoolETCIcon.svg": "/bags/static/media/schoolETCIcon.742c46b88dfe179268d076483faddd7b.svg",
     "static/media/schoolSRTIcon.svg": "/bags/static/media/schoolSRTIcon.2687a731ba2fa1744803ff31bd91ec9a.svg",
     "static/media/schoolGehennaIcon.svg": "/bags/static/media/schoolGehennaIcon.0f6e0a00e66c5d001050ff6c2f14e5d5.svg",
     "static/media/schoolMillenniumIcon.svg": "/bags/static/media/schoolMillenniumIcon.6fe22fd1de0ee90149e9eb539eb62002.svg",
     "index.html": "/bags/index.html",
-    "main.4f80c380.css.map": "/bags/static/css/main.4f80c380.css.map",
-    "main.c128ae72.js.map": "/bags/static/js/main.c128ae72.js.map"
+    "main.01f8dc64.css.map": "/bags/static/css/main.01f8dc64.css.map",
+    "main.2b6ef37e.js.map": "/bags/static/js/main.2b6ef37e.js.map"
   },
   "entrypoints": [
-    "static/css/main.4f80c380.css",
-    "static/js/main.c128ae72.js"
+    "static/css/main.01f8dc64.css",
+    "static/js/main.2b6ef37e.js"
   ]
 }
