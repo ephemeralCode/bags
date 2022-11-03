@@ -18,7 +18,7 @@ const BtnOneRoll = (props) => {
     // TODO
     const test = () => {
         if (props.typeGacha == 'rateUp') {
-            if (!Object.keys(props.selectedRateUpStudent).length) return true
+            if (!Object.keys(props.rateUpStudent).length) return true
             if (props.startCustomGacha) return true
 
         } else {

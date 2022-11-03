@@ -255,7 +255,7 @@ const RateUpGacha = (props) => {
                                 oneRoll={oneRoll}
 
                                 typeGacha={props.typeGacha}
-                                selectedRateUpStudent={props.selectedRateUpStudent}
+                                rateUpStudent={props.rateUpStudent}
                             />
 
                             <BtnCustomRoll
@@ -277,7 +277,7 @@ const RateUpGacha = (props) => {
                                 customRoll={customRoll}
 
                                 typeGacha={props.typeGacha}
-                                selectedRateUpStudent={props.selectedRateUpStudent}
+                                rateUpStudent={props.rateUpStudent}
                             />
                         </div>
                         
