@@ -184,7 +184,7 @@ const RateUpGacha = (props) => {
                                         <p className='Interface-dashInfoRates'>-</p>
                                         
                                         <div className='Interface-containerResultRNG'>
-                                            <p className='Interface-numberResultRNG'>1.8</p>
+                                            <p className='Interface-numberResultRNG'>2.3</p>
 
                                             <p className='Interface-percentageResultRNG'>%</p>
                                         </div>
@@ -216,7 +216,7 @@ const RateUpGacha = (props) => {
                                         <p className='Interface-dashInfoRates'>-</p>
                                         
                                         <div className='Interface-containerResultRNG'>
-                                            <p className='Interface-numberResultRNG'>79</p>
+                                            <p className='Interface-numberResultRNG'>78.5</p>
 
                                             <p className='Interface-percentageResultRNG'>%</p>
                                         </div>

@@ -95,7 +95,7 @@ const RegularGacha = (props) => {
                                     <p className='Interface-dashInfoRates'>-</p>
                                     
                                     <div className='Interface-containerResultRNG'>
-                                        <p className='Interface-numberResultRNG'>2.5</p>
+                                        <p className='Interface-numberResultRNG'>3</p>
 
                                         <p className='Interface-percentageResultRNG'>%</p>
                                     </div>
@@ -127,7 +127,7 @@ const RegularGacha = (props) => {
                                     <p className='Interface-dashInfoRates'>-</p>
                                     
                                     <div className='Interface-containerResultRNG'>
-                                        <p className='Interface-numberResultRNG'>79</p>
+                                        <p className='Interface-numberResultRNG'>78.5</p>
 
                                         <p className='Interface-percentageResultRNG'>%</p>
                                     </div>
