@@ -16,13 +16,13 @@ const RegularGacha = (props) => {
     const oneRoll = (randomValue) => {
         let newStudent;
 
-        if (randomValue <= 2.5) {
+        if (randomValue <= 3) {
             newStudent = importStudentsUltraRare.standartPull.students[Math.ceil(Math.random() * importStudentsUltraRare.standartPull.students.length - 1)]
 
             props.counterRolls(props.typeGacha, 'lastCountUltraRare', 'totalCountUltraRare')
             props.addNewStudent(props.typeGacha, 'ultraRare', newStudent)
 
-        } else if (randomValue <= 18.5 && randomValue > 2.5) {
+        } else if (randomValue <= 21.5 && randomValue > 3) {
             newStudent = importStudentsRare[Math.ceil(Math.random() * importStudentsRare.length - 1)]
 
             props.counterRolls(props.typeGacha, 'lastCountRare', 'totalCountRare')
@@ -40,7 +40,7 @@ const RegularGacha = (props) => {
     const customRoll = (randomValue) => {
         let newStudent;
 
-        if (randomValue <= 2.5) {
+        if (randomValue <= 3) {
             newStudent = importStudentsUltraRare.standartPull.students[Math.ceil(Math.random() * importStudentsUltraRare.standartPull.students.length - 1)]
 
             props.counterRolls(props.typeGacha, 'lastCountUltraRare', 'totalCountUltraRare')
@@ -52,7 +52,7 @@ const RegularGacha = (props) => {
             props.counterRolls(props.typeGacha, 'lastCountRare', 'totalCountRare')
             props.addNewStudent(props.typeGacha, 'rare', newStudent)
 
-        } else if (randomValue <= 21 && randomValue > 2.5) {
+        } else if (randomValue <= 21.5 && randomValue > 3) {
             newStudent = importStudentsRare[Math.ceil(Math.random() * importStudentsRare.length - 1)]
 
             props.counterRolls(props.typeGacha, 'lastCountRare', 'totalCountRare')

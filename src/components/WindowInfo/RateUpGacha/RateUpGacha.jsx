@@ -20,13 +20,13 @@ const RateUpGacha = (props) => {
             props.counterRolls(props.typeGacha, 'lastCountUltraRare', 'totalCountUltraRare')
             props.addNewStudent(props.typeGacha, 'ultraRare', props.rateUpStudent)
 
-        } else if (randomValue <= 2.5 && randomValue > .7) {
+        } else if (randomValue <= 3 && randomValue > .7) {
             newStudent = props.arrayRateUpStudents[Math.ceil(Math.random() * props.arrayRateUpStudents.length - 1)]
 
             props.counterRolls(props.typeGacha, 'lastCountUltraRare', 'totalCountUltraRare')
             props.addNewStudent(importStudentsUltraRare, props.typeGacha, 'ultraRare')
 
-        } else if (randomValue <= 18.5 && randomValue > 2.5) {
+        } else if (randomValue <= 21.5 && randomValue > 3) {
             newStudent = importStudentsRare[Math.ceil(Math.random() * importStudentsRare.length - 1)]
 
             props.counterRolls(props.typeGacha, 'lastCountRare', 'totalCountRare')
@@ -48,7 +48,7 @@ const RateUpGacha = (props) => {
             props.counterRolls(props.typeGacha, 'lastCountUltraRare', 'totalCountUltraRare')
             props.addNewStudent(props.typeGacha, 'ultraRare', props.rateUpStudent)
 
-        } else if (randomValue <= 2.5 && randomValue > .7) {
+        } else if (randomValue <= 3 && randomValue > .7) {
             newStudent = props.arrayRateUpStudents[Math.ceil(Math.random() * props.arrayRateUpStudents.length - 1)]
 
             props.counterRolls(props.typeGacha, 'lastCountUltraRare', 'totalCountUltraRare')
@@ -60,7 +60,7 @@ const RateUpGacha = (props) => {
             props.counterRolls(props.typeGacha, 'lastCountRare', 'totalCountRare')
             props.addNewStudent(props.typeGacha, 'rare', newStudent)
 
-        } else if (randomValue <= 21 && randomValue > 2.5) {
+        } else if (randomValue <= 21.5 && randomValue > 3) {
             newStudent = importStudentsRare[Math.ceil(Math.random() * importStudentsRare.length - 1)]
 
             props.counterRolls(props.typeGacha, 'lastCountRare', 'totalCountRare')
