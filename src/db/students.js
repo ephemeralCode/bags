@@ -79,6 +79,10 @@ import student85 from '../image/students/imgStudent85.png'
 import student86 from '../image/students/imgStudent86.png'
 import student87 from '../image/students/imgStudent87.png'
 import student88 from '../image/students/imgStudent88.png'
+import student89 from '../image/students/imgStudent89.png'
+import student90 from '../image/students/imgStudent90.png'
+import student91 from '../image/students/imgStudent91.png'
+import student92 from '../image/students/imgStudent92.png'
 
 //! limited students
 
@@ -485,6 +489,42 @@ export const importStudentsUltraRare = {
                 schoolIcon: schoolTrinityIcon,
                 attackType: 'Mystic',
             },
+
+            {
+                id: 89,
+                name: 'Marina',
+                imgStudent: student89,
+                school: 'Trinity',
+                schoolIcon: schoolRedWinterIcon,
+                attackType: 'Explosive',
+            },
+
+            {
+                id: 90,
+                name: 'Miyaro',
+                imgStudent: student90,
+                school: 'SRT',
+                schoolIcon: schoolSRTIcon,
+                attackType: 'Piercing',
+            },
+
+            {
+                id: 91,
+                name: 'Saki',
+                imgStudent: student91,
+                school: 'SRT',
+                schoolIcon: schoolSRTIcon,
+                attackType: 'Piercing',
+            },
+
+            {
+                id: 92,
+                name: 'Miyu',
+                imgStudent: student92,
+                school: 'SRT',
+                schoolIcon: schoolSRTIcon,
+                attackType: 'Piercing',
+            }
         ]
     },
 
@@ -638,7 +678,6 @@ export const importStudentsUltraRare = {
                 schoolIcon: schoolHyakkiyakoIcon,
                 attackType: 'Piercing',
                 limited: 'true'
-                // '#ff70da'
             }
         ]
     }
