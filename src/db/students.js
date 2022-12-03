@@ -83,6 +83,8 @@ import student89 from '../image/students/imgStudent89.png'
 import student90 from '../image/students/imgStudent90.png'
 import student91 from '../image/students/imgStudent91.png'
 import student92 from '../image/students/imgStudent92.png'
+import student93 from '../image/students/imgStudent93.png'
+import student94 from '../image/students/imgStudent94.png'
 
 //! limited students
 
