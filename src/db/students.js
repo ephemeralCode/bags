@@ -524,7 +524,25 @@ export const importStudentsUltraRare = {
                 school: 'SRT',
                 schoolIcon: schoolSRTIcon,
                 attackType: 'Piercing',
-            }
+            },
+
+            {
+                id: 93,
+                name: 'Kaede',
+                imgStudent: student93,
+                school: 'Hyakkiyako',
+                schoolIcon: schoolHyakkiyakoIcon,
+                attackType: 'Explosive',
+            },
+
+            {
+                id: 94,
+                name: 'Iroha',
+                imgStudent: student94,
+                school: 'Gehenna',
+                schoolIcon: schoolGehennaIcon,
+                attackType: 'Mystic',
+            },
         ]
     },
 
